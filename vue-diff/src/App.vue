@@ -2,7 +2,10 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 
   <div>
-  
+    <!--v-code-diff -->
+  <AnotherDiffViewTest/>
+
+<!--vue-diff -->
     <DiffViewTest />
   </div>
 
@@ -12,12 +15,14 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+import AnotherDiffViewTest from './components/AnotherDiffViewTest.vue';
 import DiffViewTest from './components/DiffViewTest.vue';
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
+    AnotherDiffViewTest,
     DiffViewTest
   }
 }
